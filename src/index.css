@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  
+
+body {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns%3D"http%3A//www.w3.org/2000/svg" viewBox%3D"0 0 24 24" fill%3D"none" stroke%3D"currentColor" stroke-width%3D"2" stroke-linecap%3D"round" stroke-linejoin%3D"round" class%3D"feather feather-mouse-pointer"%3E%3Cpath d%3D"M3 3l8 18 4-8 8-4-18-8z"%3E%3C/path%3E%3C/svg%3E') 0 0, auto;
+} 
+
+a:hover {
+  cursor: url('data:image/svg+xml,%3Csvg xmlns%3D"http%3A//www.w3.org/2000/svg" viewBox%3D"0 0 24 24" fill%3D"none" stroke%3D"currentColor" stroke-width%3D"2" stroke-linecap%3D"round" stroke-linejoin%3D"round" class%3D"feather feather-hand"%3E%3Cpath d%3D"M12 2l8 7.5v8.5a2 2 0 01-2 2h-12a2 2 0 01-2-2v-8.5l8-7.5z"%3E%3C/path%3E%3C/svg%3E') 0 0, auto;
+}
